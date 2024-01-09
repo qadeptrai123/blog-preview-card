@@ -1,0 +1,91 @@
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: figtree;
+}
+
+.card {
+    display: block;
+    width: 385px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+    border: solid black 1px;
+    box-shadow: 9px 7px;
+    transition: ease 0.5s;
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: 17px 13px;
+}
+
+.card:hover .title {
+    color: hsl(47, 88%, 63%);
+}
+
+.tag {
+    display: block;
+    width: 81px;
+    border-radius: 5px;
+    background-color: hsl(47, 88%, 63%);
+    margin-right: auto;
+    padding: 8px;
+    text-align: center;
+    font-weight: 800;
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+
+.center {
+    display: block;
+    padding: 0px;
+    margin: auto;
+}
+
+svg {
+    width: 100%;
+    display: block;
+    border-radius: 15px;
+}
+
+.figure1 {
+    display: block;
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.date {
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+.title {
+    display: block;
+    font-size: 26px;
+    transition: ease 0.5s;
+}
+
+.description {
+    display: block;
+    width: 90%;
+    color: hsl(0, 0%, 50%);
+    line-height: 23px;
+}
+
+.avt {
+    width: 37px;
+}
+/*
+.author {
+    display: inline-block;
+} */
+
+.flex {
+    display: flex;
+    align-items: center;
+    height: 37px;
+    /* width: 150px; */
+    gap: 10px;
+}
